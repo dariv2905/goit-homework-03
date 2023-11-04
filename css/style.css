@@ -34,6 +34,7 @@ body {
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
+    display: flex;
  }
 
 .logotype {  
@@ -290,15 +291,11 @@ text-transform: uppercase;}
 { display: flex;
 }
 
- .information
- { display: flex;
- }
 
  .footer
- { display: inline-block;
+ {
     padding-top: 100px;
 padding-bottom: 100px;
-margin-bottom: 16px;
  }
 
  .page-header
@@ -306,6 +303,11 @@ margin-bottom: 16px;
     border-bottom: 1px solid #e7e9fc;
  }
 
+.footer-information-link
+{ 
+    display: inline-block;
+margin-bottom: 16px;
+ }
 
 
 
