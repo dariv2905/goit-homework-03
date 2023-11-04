@@ -294,7 +294,21 @@ text-transform: uppercase;}
  { display: flex;
  }
 
- 
+ .footer
+ { display: inline-block;
+    padding-top: 100px;
+padding-bottom: 100px;
+margin-bottom: 16px;
+ }
+
+ .page-header
+ { 
+    border-bottom: 1px solid #e7e9fc;
+ }
+
+
+
+
 
 
 
