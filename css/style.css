@@ -286,6 +286,13 @@ text-transform: uppercase;}
 { margin-bottom: 32px;
      }
 
+.menu-list
+{ display: flex;
+}
+
+ .information
+ { display: flex;
+ }
 
  
 
