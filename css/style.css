@@ -2,8 +2,20 @@
 
 ul { list-style-type: none; }
 
-a  { text-decoration: none; }
+a { text-decoration: none; }
 
+h1,h2,h3,h4,h5,h6,p
+{ margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,ol
+{ margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  img {display: block; }
 
 button { cursor: pointer;
     font-family: "Roboto", sans-serif;
@@ -16,8 +28,15 @@ body {
     color: #434455;
  }
 
-.logotype {  
+ .container
+ { width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+ }
 
+.logotype {  
 color: var(--IRIS, #4D5AE5);
 font-family: Raleway, sans-serif;
 font-size: 18px;
@@ -50,6 +69,28 @@ text-transform: uppercase;
 {color:#404bbf;
 }
 
+.page-navigation {display: flex;
+ align-items: center;
+ width: 100%;
+ justify-content: space-between;
+ max-width: 76px;
+}
+
+.page-header
+{padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.menu 
+{display: flex;
+column-gap: 24px ;
+}
+
+.page-information
+{display: flex;
+    justify-content: space-between; }
+
+
 .information-link
 {  color: var(--SLATE, #434455);
 font-family: Roboto;
@@ -60,12 +101,11 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
  }
 
- .section
+ .first-section
  { background: var(--NAVY-BLUE, #2E2F42); }
 
  .title
- {
- color: var(--WHITE, #FFF);
+ { color: var(--WHITE, #FFF);
 text-align: center;
 font-family: Roboto;
 font-size: 56px;
@@ -95,6 +135,9 @@ letter-spacing: 1.12px; }
 {background-color: #404BBF;
 }
 
+.section
+{padding-top: 120px;
+padding-bottom: 120px; }
 
  .menu-list-link
  { color: var(--NAVY-BLUE, #2E2F42);
@@ -131,19 +174,6 @@ letter-spacing: 1.12px; }
     text-transform: capitalize;
    }
 
-   .headline
-   {
-
-color: var(--NAVY-BLUE, #2E2F42);
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11; /* 111.111% */
-letter-spacing: 0.72px;
-text-transform: capitalize;
-}
-
 
 .information-basket-link
 { color: var(--NAVY-BLUE, #2E2F42);
@@ -169,7 +199,6 @@ letter-spacing: 0.32px;}
 
 .third-section
 { background: var(--CLOUD, #F4F4FD);
-
 }
 
 .information-basket-item
@@ -216,14 +245,49 @@ font-size: 18px;
 font-weight: 700;
 line-height: 1.17; /* 116.667% */
 letter-spacing: 0.03em;
-text-transform: uppercase;
+text-transform: uppercase;}
 
+.team-title
+{  width: 162px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
 }
 
+.information-bascket
+{ display: flex;
+ column-gap: 24px;
+}
+
+.information-basket-item
+{ width: 264px;
+ height: 380px;
+}
+
+.information-bascket-second
+{ display: flex;
+ column-gap: 24px;
+ flex-wrap: wrap;
+}
+
+.information-basket-item-new
+{ width: 360px;
+  height: 420px;
+   }
+
+.portfolio-title
+{  width: 218px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+
+.information-basket-item-img
+{ margin-bottom: 32px;
+     }
 
 
-
-
+ 
 
 
 
