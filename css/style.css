@@ -258,12 +258,13 @@ text-transform: uppercase;}
 
 .information-bascket
 { display: flex;
- column-gap: 24px;
+ gap: 24px;
 }
 
 .information-basket-item
-{ width: 264px;
- height: 380px;
+{ 
+ width: calc((100% - 72px) / 4); 
+ border-radius: 0px 0px 4px 4px; 
 }
 
 .information-bascket-second
@@ -327,7 +328,6 @@ margin-bottom: 16px;
 
 .title
 { max-width: 496px;
- text-align: center;
 }
 
 .button
@@ -352,7 +352,7 @@ margin-bottom: 16px;
     gap: 40px;
 }
 
-.second-sektion
+.second-section
 { padding: 120px 0;
 }
 
@@ -386,10 +386,6 @@ margin-bottom: 16px;
 { padding-left: 710px;
 }
 
-.container-second
-{ padding-left: 472px;
-    padding-right: 472px;
-}
 
 
 .menu-list-item
@@ -412,10 +408,20 @@ margin-bottom: 16px;
 { padding: 24px 0;
 }
 
-.second-sektion
-{ padding: 120px 0;
-}
 
 .menu-list-item
 {  width: calc((100% - 72px) / 4); 
+}
+
+.member-information
+{ padding: 32px 0;
+}
+
+.information-basket-link
+{  text-align: center;
+    margin-bottom: 8px
+}
+
+.information-basket-text
+{  text-align: center; 
 }
