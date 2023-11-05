@@ -29,11 +29,10 @@ body {
  }
 
  .container
- {  width: 1440px;
+ {  width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding: 0 15px;
  }
 
 .logotype {  
@@ -292,7 +291,7 @@ text-transform: uppercase;}
 
 .menu-list
 { display: flex;
-    column-gap: 24px;
+   gap: 24px;
 }
 
 
@@ -389,22 +388,28 @@ margin-bottom: 16px;
 }
 
 .button
-{ text-align: center;
+{min-width: 169px;
+    margin-top: 48px;
+    display: block;
 }
 
-.container-third
-{ width: 1440px;
-    height: 344px;
-    padding-left: 156px;
-    padding-right: 156px;
-}
+
 
 .menu-list-item
 { padding-top: 120px;
     padding-bottom: 120px;
+    width: ((100% - 72px) / 4);
 }
 
 .information-link
 { width: 151px;
     height: 24px;
+}
+
+.menu-item
+{ padding: 24px 0;
+}
+
+.menu-list-link
+{ margin-bottom: 8px;
 }
