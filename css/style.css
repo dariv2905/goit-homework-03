@@ -32,7 +32,6 @@ body {
  {  width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px;
  }
 
 .logotype {  
@@ -332,11 +331,15 @@ margin-bottom: 16px;
 }
 
 .button
-{ max-width: 169px;
+{ 
     height: 56px;
     border: none;
     border-radius: 4px;
+    min-width: 169px;
+    margin-top: 48px;
+    display: block;
 }
+
 
 .information
 { display: flex;
@@ -375,6 +378,7 @@ margin-bottom: 16px;
 { display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding: 0 15px;
 
 }
 
@@ -386,13 +390,6 @@ margin-bottom: 16px;
 { padding-left: 472px;
     padding-right: 472px;
 }
-
-.button
-{min-width: 169px;
-    margin-top: 48px;
-    display: block;
-}
-
 
 
 .menu-list-item
@@ -406,10 +403,19 @@ margin-bottom: 16px;
     height: 24px;
 }
 
-.menu-item
-{ padding: 24px 0;
-}
 
 .menu-list-link
 { margin-bottom: 8px;
+}
+
+.menu-link
+{ padding: 24px 0;
+}
+
+.second-sektion
+{ padding: 120px 0;
+}
+
+.menu-list-item
+{  width: calc((100% - 72px) / 4); 
 }
