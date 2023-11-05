@@ -255,10 +255,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase;}
 
 .team-title
-{  width: 162px;
+{ width: 162px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
+    height: 40px;
 }
 
 .information-bascket
@@ -285,6 +286,7 @@ text-transform: uppercase;}
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
+    height: 40px;
 }
 
 .menu-list-item
@@ -430,6 +432,8 @@ margin-bottom: 16px;
     border: 1px solid #e7e9fc; 
     border-top: none;
     margin-bottom: 8px}
+
+
 
 
 
