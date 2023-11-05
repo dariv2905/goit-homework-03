@@ -116,7 +116,7 @@ font-weight: 700;
 line-height: 1.07; /* 107.143% */
 letter-spacing: 1.12px; 
 margin-left: 316px;
-margin right: 316px;
+margin-right: 316px;
 }
 
 
@@ -135,7 +135,7 @@ margin right: 316px;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.64px;
     margin-left: 480px;
-margin right: 480px;
+    margin-right: 480px;
  }
 
 .button:hover, .button:focus
@@ -291,10 +291,16 @@ text-transform: uppercase;}
     margin-bottom: 72px;
 }
 
-.information-basket-item-img
+.information-basket-item-img-first
+{ margin-bottom: 32px;
+    width: calc((100% - 72px) / 4); 
+     }
+
+.information-basket-item-img-second
 { margin-bottom: 32px;
     width: calc((100% - 48px) / 3); 
-     }
+       }
+
 
 .menu-list
 { display: flex;
@@ -433,5 +439,7 @@ margin-bottom: 16px;
     border-top: none;
     margin-bottom: 8px}
 
-    
+
+
+
     
